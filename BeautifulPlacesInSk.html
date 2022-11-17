@@ -25,30 +25,16 @@
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="theme-color" content="#18b0d4">
   <!---->
-  <!--style for card-->
-  <style>
-    .card{
-        border-radius: 1em;
-        text-align: center;
-        padding: 1em;
-    }
-    .card:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-    .card img{
-        border-radius: 50%;
-        width: 60%;
-        margin: auto;
-    }
-  </style>
+  <!--import css style-->
+  <link rel="stylesheet" href="./style.css">
   <!---->
 </head>
 <body>
 <!--realization top menu-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand p-0" href="learningHTML.html">
-      <img src="Images/DP.png" alt="logo" width="90"/>
+    <a class="navbar-brand p-0" href="index.html">
+      <img src="Images/DP.png" alt="logo" width="138"/>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +43,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="learningHTML.html">Home</a>
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
           <!-- class active do menu Home active -->
         </li>
         <li class="nav-item">
@@ -73,61 +59,34 @@
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/id/10/300" class="card-img-top" alt="Image">
+        <img src="Images/skrai.jpg" class="card-img-top" alt="Image">
         <div class="card-body">
-          <h5 class="card-title">Forest</h5>
+          <h5 class="card-title">Slovak paradise</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A blanditiis deleniti earum eos eveniet quam quas, quasi quos reiciendis rerum sed temporibus totam! Excepturi, quia!</p>
-          <a href="https://picsum.photos/id/10/1500" target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="Images/skrai.jpg" target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="SlovakParadise.html" class="btn btn-secondary">About</a>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/id/11/300" class="card-img-top" alt="Image">
+        <img class="card-img-top" src="Images/tatry.jpg" alt="Image">
         <div class="card-body">
-          <h5 class="card-title">Mount</h5>
+          <h5 class="card-title">Tatra</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur corporis cum, facere fuga id illo laborum maiores minima optio, quasi recusandae saepe temporibus voluptatibus?</p>
-          <a href="https://picsum.photos/id/11/1500"target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="Images/tatry.jpg" target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="Tatry.html" class="btn btn-secondary">About</a>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/id/13/300" class="card-img-top" alt="Image">
+        <img src="Images/castle.jpg" class="card-img-top" alt="Image">
         <div class="card-body">
-          <h5 class="card-title">Ocean</h5>
+          <h5 class="card-title">Castle</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur consectetur cum dicta dolores eos eum, id illo necessitatibus nobis provident quas quod sit, ullam.</p>
-          <a href="https://picsum.photos/id/13/1500" target="_blank" class="btn btn-primary">Large photo</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://picsum.photos/id/13/300" class="card-img-top" alt="Image">
-        <div class="card-body">
-          <h5 class="card-title">Ocean</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur consectetur cum dicta dolores eos eum, id illo necessitatibus nobis provident quas quod sit, ullam.</p>
-          <a href="https://picsum.photos/id/13/1500" target="_blank" class="btn btn-primary">Large photo</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://picsum.photos/id/13/300" class="card-img-top" alt="Image">
-        <div class="card-body">
-          <h5 class="card-title">Ocean</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur consectetur cum dicta dolores eos eum, id illo necessitatibus nobis provident quas quod sit, ullam.</p>
-          <a href="https://picsum.photos/id/13/1500" target="_blank" class="btn btn-primary">Large photo</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://picsum.photos/id/13/300" class="card-img-top" alt="Image">
-        <div class="card-body">
-          <h5 class="card-title">Ocean</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur consectetur cum dicta dolores eos eum, id illo necessitatibus nobis provident quas quod sit, ullam.</p>
-          <a href="https://picsum.photos/id/13/1500" target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="Images/castle.jpg" target="_blank" class="btn btn-primary">Large photo</a>
+          <a href="Castle.html" class="btn btn-secondary">About</a>
         </div>
       </div>
     </div>
